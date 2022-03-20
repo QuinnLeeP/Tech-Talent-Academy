@@ -14,6 +14,44 @@
       <form action="/practice.html" method="POST">
           <h1>This is a burger site</h1>
           <p>Get your burgers whilst they're hot!</p>
+          <section id="protein">
+            <label for="patty">Which kind of protein whould you like?</label>
+              <input type="text" name="patty" id="patty" value="Beef">
+          </section>
+
+          <section id="patties">
+            <label for="amount">How many patties would you like?</label>
+              <input id="amount" type="number" step="1" name="amount">
+          </section>
+
+          <section id="cooked">
+            <label for="rareity">How well done do you want your burger cooked?</label>
+                <span>Rare</span>
+              <input type="range" id="rareity" name="rareity" min="0" max="5" step="0.5">
+                <span>Well-Done</span>
+          </section>
+
+          <section class="toppings">
+            <input id="lettuce" name="topping" type="checkbox" value="lettuce">
+
+            <label for="lettuce">Lettuce</label>
+            <br>
+            <input id="tomatoes" name="topping" type="checkbox" value="tomatoes">
+
+            <label for="tomatoes">Tomatoes</label>
+            <br>
+            <input id="onion" name="topping" type="checkbox" value="onion">
+
+            <label for="onion">Onion</label>
+          </section>
+          
+          <section id="sauces">
+            
+          </section>
+
+
+      </form>
+
       
     </section>
   </body>
