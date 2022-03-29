@@ -213,6 +213,29 @@ img {
     border-radius: 20px;
 }
 
+.st-title {
+    background-image: url("https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-color: rgb(201, 150, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    color: wheat;
+    justify-content: center;
+    z-index: 9;
+}
+
+.sweet-treats {
+    height: 45rem;
+    padding-top: 20px;
+}
+
+.sweet-treats img {
+    padding: 5px;
+    border-radius: 20px;
+}
+
 footer {
     display: inline-block;
     color: wheat;
