@@ -319,6 +319,17 @@ img {
 .contact-form {
     height: 18rem;
 }
+
+button {
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #714433;
+    justify-content: center;
+    text-align: center;
+}
 footer {
     display: inline-block;
     color: wheat;
