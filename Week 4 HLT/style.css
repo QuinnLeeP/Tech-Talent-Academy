@@ -268,8 +268,29 @@ img {
     padding: 5px;
     vertical-align: top;
     margin-top: 10px;
-  }
+}
 
+.review-title {
+    background-image: url("https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-color: rgb(201, 150, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #523500;
+}
+
+.review-title h1 {
+    color: #523500;
+}
+
+.review-form {
+    height: 40rem;
+}
 
 footer {
     display: inline-block;
