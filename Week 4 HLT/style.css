@@ -101,6 +101,10 @@ a:hover {
     height: 28rem;
 }
 
+.examples img {
+    border-radius: 10px;
+}
+
 
 img {
     display: inline;
@@ -177,6 +181,36 @@ img {
     padding-top: 5px;
     color: #ffff8f;
     font-family: 'Poppins', sans-serif;
+}
+
+.bread {
+    background-image: url("https://images.pexels.com/photos/10011797/pexels-photo-10011797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-color: rgb(201, 150, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    color: wheat;
+    justify-content: center;
+    z-index: 9;
+}
+
+.bread p {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff8f;
+}
+
+.bread-images {
+    height: 45rem;
+    padding-top: 20px;
+}
+
+.bread-images img {
+    padding: 5px;
+    border-radius: 20px;
 }
 
 footer {
