@@ -19,6 +19,51 @@
             <li><a href="contact.html">Contact Us</a></li>
           </ul>        <!--Easy to distinguish navigation links-->
     </nav>
-    <h1>Review Us!</h1>
+    <section class="review-title">
+      <h1>Review Us!</h1>
+    </section>
+    <section class="review-form">
+        <form action="/processing.html" method="POST" class="master-div-style">
+            <h2>How did your order go?</h2>
+              <div id="fname">
+                <label for="name" class="labels">Name</label>
+                <input id="name" type="text" name="name" class="input-fields" placeholder="Enter your Full Name">
+              </div>
+    
+              <div id="how-good">
+                <label for="scale" class="labels">On a scale of 1 to 10, how good was your experience</label>
+                <input type="number" name="scale" id="scale" class="input-fields" placeholder="Choose a number between 1 and 10" min="1" max="10">
+              </div>
+    
+              <div id="order">
+                <label for="what" class="labels">What did you order?</label>
+                <select name="what" id="what" class="dropdown">
+                  <option value="bread">Bread</option>
+                  <option value="sweets">Sweet Treats</option>
+                  <option value="mixed">Mixed</option>
+                </select>
+            </div>
+    
+              <div id="stars">
+                <label>How many starswould you rate us?</label> <br> <br>   <!--Adding in 2 br's to seperate a little more than with just one br-->
+                <input type="radio" name="stars" id="stars" value="one">One<br>
+    
+                  <input type="radio" name="stars" id="stars" value="two">Two<br>
+              
+                  <input type="radio" name="stars" id="stars" value="three">Three<br>
+               
+                  <input type="radio" name="stars" id="stars" value="four">Four <br>
+
+                  <input type="radio" name="stars" id="stars" value="five">Five <br>
+                
+              </div> 
+              <br>
+              <div id="submit">
+                <button class="button" type="submit" class="btn">Submit</button>
+              </div>
+        </section>
+    <footer>
+        <p>Contact Covid-19 Legals Privacy Policy</p>
+    </footer>
 </body>
 </html>

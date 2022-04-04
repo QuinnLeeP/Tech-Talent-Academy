@@ -19,7 +19,33 @@
             <li><a href="contact.html">Contact Us</a></li>
           </ul>       <!--Easy to distinguish navigation links-->
     </nav>
-    <h1>Contact Us</h1>
-    <h2>You're only one click away from heaven in your mouth!</h2>
+    <section class="contact-title">
+      <h1>Contact Us</h1>
+      <h2>You're only one click away from heaven in your mouth!</h2>
+    </section>
+    <section class="contact-form">
+        <form action="/processing.html" method="POST" class="master-div-style">
+              <div id="fname">
+                <label for="name" class="labels">Name</label>
+                <input id="name" type="text" name="name" class="input-fields" placeholder="Enter your Full Name">
+              </div>
+    
+              <div id="mail">
+                <label for="email" class="labels">Email</label>
+                <input type="text" name="email" id="email" class="input-fields" placeholder="Enter your email adress">
+              </div>
+
+              <div id="message">
+                <label for="message" class="labels">Please enter your message or question.</label>
+                <textarea id="message" name="message" rows="10" cols="50" class="input-fields">
+                </textarea>
+              </div> <br>
+              <div id="submit">
+                <button class="button" type="submit" class="btn">Submit</button>
+              </div>
+    </section>
+    <footer>
+        <p>Contact Covid-19 Legals Privacy Policy</p>
+      </footer>
 </body>
 </html>

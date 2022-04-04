@@ -19,7 +19,59 @@
             <li><a href="contact.html">Contact Us</a></li>
           </ul>        <!--Easy to distinguish navigation links-->
     </nav>
-    <h1>Order</h1>
-    <p>Use this order form for picking up an order or ordering for delivery</p>
+    <section class="order-intro">
+      <h1>Order</h1>
+      <p>Use this order form for picking up an order or ordering for delivery</p>
+    </section>
+    <section class="order-form">
+
+        <form action="/processing.html" method="POST" class="master-div-style">
+            <h2>What would you like to order?</h2>
+              <div id="fname">
+                <label for="name" class="labels">Name</label>
+                <input id="name" type="text" name="name" class="input-fields" placeholder="Enter your Full Name">
+              </div>
+    
+              <div id="mail">  <!--Change these sections to div to separate styling-->
+                <label for="email" class="labels">Email</label>
+                <input type="text" name="email" id="email" class="input-fields" placeholder="Enter your email adress">
+              </div>
+    
+              <div id="how-many">
+                <label for="items" class="labels">How many items would you like?</label>
+                <input type="number" name="items" id="items" class="input-fields" placeholder="Choose a number between 1 and 10" min="1" max="10">
+              </div>
+    
+              <div id="what">
+                <label for="baked" class="labels">What type of baked good?</label>
+                <select name="baked" id="baked" class="dropdown">
+                  <option value="Bread">Bread</option>
+                  <option value="treats">Sweet Treats</option>
+                  <option value="mixed">Mixed Selection</option>
+                </select>
+            </div>
+              <br>
+              <div id="how">
+                <label>Pick-up or delivery</label> <br> <br>   <!--Adding in 2 br's to seperate a little more than with just one br-->
+                <input type="radio" name="how" id="how" value="Pickup">Pick Up<br>
+    
+                  <input type="radio" name="how" id="how" value="Delivery">Delivery<br>
+                
+              </div> <br>
+                <br>
+              <div id="notes">
+                <label for="notes" class="labels">Any additional notes?</label>
+                <textarea id="notes" name="notes" rows="4" cols="50" class="input-fields">
+                </textarea>
+            </div>
+              
+              <div id="submit">
+                <button class="button" type="submit" class="btn">Submit</button>
+              </div>
+
+    </section>
+    <footer>
+        <p>Contact Covid-19 Legals Privacy Policy</p>
+      </footer>
 </body>
 </html>
