@@ -7,7 +7,9 @@ let fahrenheit = celsius * (9/5) + 32;
 /* You often get a decimal when converting from Celsius to Fahrenheit so the built in Math object needs to be used to round down the number */
 fahrenheit = Math.floor(fahrenheit);
 
-console.log('The temperature is ${fahrenheit} degress Fahrenheit');
+console.log(`The temperature is ${fahrenheit} degress Fahrenheit`);
+
+
 
 
 
