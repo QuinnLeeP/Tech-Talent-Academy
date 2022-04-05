@@ -11,7 +11,7 @@ var userQuestion = "Will I be successful?"
 
 console.log(`${userName} asked, ${userQuestion}`)
 /* the username is interpolated with the user question to state what question is asked */
-var randomNumber = Math.floor(Math.random() * 11);
+let randomNumber = Math.floor(Math.random() * 11);
 /* using the math.floor method and math.random method with the number 11 will return a number between 0 and 10 */
 let eightBall = "";
 /* the eightball variable is set to a blank string until the if function assigns a value to the varible */
