@@ -46,7 +46,7 @@ if (temperature >= 10 && condition === "Sunny") {
   goToWork == false;
 }
 
-
+//another if statement to display a message depending on whether goToWork is true or false.
 if (goToWork == true) {
   console.log("You can go to work and continue construction on your lab")
 } else {
