@@ -1,6 +1,10 @@
-let temperature = 24;
+let temp = prompt("Please enter the temperature today.")
 
-let condition = "Sunny";
+let temperature = temp;
+
+let cond = prompt("What's the weather like?")
+
+let condition = cond;
 
 let goToWork = "";
 
