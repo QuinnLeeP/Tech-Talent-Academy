@@ -1,6 +1,6 @@
 let firstValue = Number(prompt("Enter a number"));
 // converted the input to a number so the + operator doesn't concatenate values
-let secondValue =Number(prompt("Enter a second number"));
+let secondValue = Number(prompt("Enter a second number"));
 
 let operation = prompt("How should these numbers interact");
 
