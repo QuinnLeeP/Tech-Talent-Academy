@@ -25,3 +25,4 @@ for (let fruit in fruits) {
     }
   }console.log(`${fruits[fruit]} has ${vowels} vowels and ${consonants} consonants.`);
 }
+
