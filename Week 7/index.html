@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="nav-list">
           <li href="index.html">Home</li>
           <li href="blog.html">Blog</li>
           <li href="submit.html">Submit</li>
@@ -19,24 +19,30 @@
         </ul>
     </nav>
     <section id="intro">
+        <h1>Electric Dreams</h1>
         <p>This is electric dreams, <br> a tech blog where you can upload your reveiws of <br> the latest and greatest tech gadgets</p>
     </section>
     <section id="about">
+        <h1>A little about us...</h1>
         <p>A little about Electric Dreams</p>
     </section>
     <section id="upload">
+        <h1>Contribute to Electric Dreams!</h1>
         <p>Upload your own content</p>
     </section>
-    <section>
-        <p>Sign up to our newsletter to hear about improvements and additions to Electric Dreams firsthand.</p>
+    <section id="signup">
+        <h1>Keep up to date.</h1>
+        <p>Sign up to our newsletter to hear about improvements and additions to Electric Dreams.</p>
         <form>
-            Name
-            Email
-            Submit
+            <label for="name" class="label">Full Name</label>
+            <input type="text" id="name" name="name" class="input" placeholder="Full Name" required>
+            <label for="email" class="label">Email Address</label>
+            <input type="email" id="email" name="email" class="inout" placeholder="Email Address" required>
+            <button type="submit" class="btn" onclick="submitNewsletter()">Submit</button>
         </form>
     </section>
     <footer>
-        Legals | Policies | GDPR | Copyright Electric Dreams 2022
+        Contact   Policies   GDPR   Copyright Electric Dreams 2022 
     </footer>
 </body>
 </html>
