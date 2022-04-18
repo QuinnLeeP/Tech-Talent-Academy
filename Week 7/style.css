@@ -69,6 +69,7 @@ a:hover {
 .nav-list {
     list-style: none;
     display: inline-flex;
+    justify-content: center;
 }
 
 .intro {
@@ -125,6 +126,7 @@ textarea {
     padding: 12px 16px;
     font-size: 20px;
     cursor: pointer;
+    justify-content: center;
 }
 
 .themebtn:hover {
@@ -141,6 +143,7 @@ textarea {
     font-size: 20px;
     cursor: pointer;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .btn:hover {
@@ -172,13 +175,58 @@ textarea {
     padding-bottom: 35px;
 }
 
+.blog-heading {
+    background-image: url("https://images.unsplash.com/photo-1518732714860-b62714ce0c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
+
+.blog-content {
+    height: 2600px;
+}
+
+.blog-content a {
+    text-decoration: underline;
+    background-color: antiquewhite;
+    color: blue;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-content img {
+    border-radius: 10px;
+}
 
 
 
 
+.sub-disc {
+    background-image: url("https://images.pexels.com/photos/2265488/pexels-photo-2265488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
 
 
 
+.policy-disc {
+    background-image: url("https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
 
 
 
