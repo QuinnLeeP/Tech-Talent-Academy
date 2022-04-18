@@ -17,6 +17,7 @@
             <li><a href="submit.html">Submit</a></li>
             <li><a href="policy.html">Policy</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><button class="themebtn"><i class="fa-solid fa-toggle-on"></i> Theme</button></li>
           </ul>
     </nav>
     <section id="container">
@@ -31,7 +32,7 @@
             <input type="email" id="email" name="email" class="input-fields" placeholder="Email Address" required> <br>
             <label for="contact-text" class="label">What d'you want to say?</label>
             <textarea id="contact-text" name="contact-text" rows="10" cols="50" placeholder="Please enter your query/problem/suggestion"></textarea> <br>
-            <input type="submit" id="submit">
+            <button type="submit" class="btn" onclick="submitEmail()">Submit</button>
         </form>
     </section>
     <footer>

@@ -17,6 +17,7 @@
             <li><a href="submit.html">Submit</a></li>
             <li><a href="policy.html">Policy</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><button class="themebtn"><i class="fa-solid fa-toggle-on"></i> Theme</button></li>
           </ul>
     </nav>
     <!-- discription of what to submit on the blog -->
@@ -34,10 +35,8 @@
             <input type="text" id="blog-author" name="blog-author" class="input fields" placeholder="Blog Author" required> <br>
             <label for="blog-content" id="label">Blog Content: </label>
             <textarea id="blog-content" name="blog-content" rows="10" cols="50"></textarea> <br>
-            <input type="file" id="addImage" name="filename"> <br>
-            <input type="submit" id="submit">
-
-            Add Image 
+            <button class="btn" type="file" id="addImage" name="filename"> Choose an Image</button> <br> <br>
+            <button type="submit" class="btn" onclick="submitBlog()">Submit</button>
         </form>
     </section>
     <footer>
