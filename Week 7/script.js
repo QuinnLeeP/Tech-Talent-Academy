@@ -3,4 +3,6 @@ function submitNewsletter() {
 
 }
 
-function 
+function  darkTheme() {
+    
+}

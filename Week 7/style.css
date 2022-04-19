@@ -16,8 +16,9 @@ nav {
     margin-left: 0;
     position: fixed;
     z-index: 10;
-    padding-top: 0;
+    padding-top: 40;
     box-shadow: 0px 2px 0 rgba(78, 92, 155, 0.4);
+    margin-top: -5px;
 }
 
 section {
@@ -186,7 +187,7 @@ textarea {
 }
 
 .blog-content {
-    height: 2600px;
+    height: 2850px;
 }
 
 .blog-content a {
@@ -201,6 +202,11 @@ textarea {
 
 .blog-content img {
     border-radius: 10px;
+}
+
+.blog-post {
+    padding-top: 10px;
+    height: 500px;
 }
 
 
@@ -228,8 +234,15 @@ textarea {
     justify-content: center;
 }
 
+.policy {
+    height: 1500px;
+}
 
 
+.contact {
+    height: 780px;
+    padding-top: -200px;
+}
 
 
 footer {
