@@ -1,8 +1,19 @@
 
+function themeSwitch() {
+    var element = document.body;
+    element.classList.toggle("dark-theme");
+}
+
+
+
 function submitNewsletter() {
 
 }
 
-function  darkTheme() {
-    
+function submitBlog() {
+
+}
+
+function submitEmail() {
+
 }

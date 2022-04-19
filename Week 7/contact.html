@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/be2dc70c4e.js" crossorigin="anonymous"></script>
     <title>Contact Us!</title>
 </head>
-<body>
+<body class="light-theme">
     <nav>
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
@@ -17,7 +17,14 @@
             <li><a href="submit.html">Submit</a></li>
             <li><a href="policy.html">Policy</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><button class="themebtn"><i class="fa-solid fa-toggle-on"></i> Theme</button></li>
+            <li>
+                <label class="switch">
+                  <div>
+                    <input type="checkbox" onclick="themeSwitch()" />
+                    <span class="slider round"></span>
+                  </div>
+                </label>
+              </li>
         </ul>
     </nav>
     <section class="contact">
