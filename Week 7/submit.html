@@ -9,7 +9,8 @@
     <script src="https://kit.fontawesome.com/be2dc70c4e.js" crossorigin="anonymous"></script>
     <title>Submit</title>
 </head>
-<body class="light-theme">
+<body class="light-theme" id="body">
+<!--Navigation Bar-->
     <nav>
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
@@ -27,7 +28,7 @@
               </li>
           </ul>
     </nav>
-    <!-- discription of what to submit on the blog -->
+    <!-- Description of what to submit on the blog -->
     <section class="sub-disc"> 
         <h1>Submit your review or guide!</h1>
         <p>Use this page to submit your very own tech review or tech guide.</p> <br>
@@ -36,16 +37,19 @@
     <!--section to submit the blog post-->
     <section class="blog-post">
         <form>
-            <label for="blog-title" id="label">Blog title: </label>
+            <label for="blog-title" class="label">Blog title: </label>
             <input type="text" id="blog-title" name="blog-title" class="input-fields" placeholder="Blog Title"> <br> <br>
-            <label for="blog-author" id="label">Blog Author: </label>
+            <label for="blog-author" class="label">Blog Author: </label>
             <input type="text" id="blog-author" name="blog-author" class="input fields" placeholder="Blog Author"> <br> <br>
-            <label for="blog-content" id="label">Blog Content: </label> <br> <br>
+            <label for="blog-content" class="label">Blog Content: </label> <br> <br>
             <textarea id="blog-content" name="blog-content" rows="10" cols="50"></textarea> <br> <br>
-            <input type="file" id="addImage" name="filename"> <br> <br>
             <button type="submit" class="btn" onclick="submitBlog()">Submit</button>
         </form>
     </section>
+    <section id="blog">
+        
+    </section>
+<!--Footer section-->
     <footer>
         Contact  |  Policies  |  GDPR  |  Copyright Electric Dreams 2022 
     </footer>

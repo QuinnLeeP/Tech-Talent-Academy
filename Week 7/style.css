@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&family=Titillium+Web:wght@300&display=swap'); /* Google fonts */
 
-:root {
+:root {    /* colour variables */
     --white: white;
     --offWhite: antiquewhite;
     --lightBlue: deepskyblue;
@@ -16,7 +16,7 @@
     --lightGrad: linear-gradient(27deg, rgba(156,156,156,1) 0%, rgba(80,129,164,1) 35%, rgba(127,233,255,1) 100%);
     --darkGrad: linear-gradient(27deg, rgba(7,7,50,1) 0%, rgba(85,99,110,1) 35%, rgba(0,3,255,1) 100%);
 }
-
+/* Light theme for the toggle switch */
 .light-theme {
     --bodyColor: var(--offWhite);
     --navBar: var(--lightBlue);
@@ -29,7 +29,7 @@
     --sectionColor: var(--blue2);
     --sectionGradient: var(--lightGrad);
 }
-
+/* Dark theme for the toggle switch */
 .dark-theme {
     --bodyColor: var(--lowBlue);
     --navBar: var(--darkBlue);
@@ -42,6 +42,10 @@
     --sectionColor: var(--blue3);
     --sectionGradient: var(--darkGrad);
 }
+/* Transition for the colour themes */
+* {
+    transition: background-color 0.6s ease, color 1s ease;
+  }
 
 body {
     background-color: var(--bodyColor);
@@ -71,7 +75,7 @@ section {
     height: 400px;
     box-shadow: 0px 2px 0 rgba(78, 92, 155, 0.4);
 }
-
+/* Styling for the dark theme switch */
 .switch {
     width: 55px;
     display: flex;
@@ -145,7 +149,7 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.8rem;
 }
-
+/* Link hover colour */
 a:hover {
     background-color: var(--navHover);
     
@@ -203,22 +207,6 @@ textarea {
 
 }
 
-.themebtn {
-    background-color: var(--navBar);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: none;
-    color: var(--navText) ;
-    padding: 12px 16px;
-    font-size: 20px;
-    cursor: pointer;
-    justify-content: center;
-}
-
-.themebtn:hover {
-    background-color: var(--navHover);
-}
-
-
 .btn {
     background-color: var(--navBar);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -253,8 +241,6 @@ textarea {
     margin: 10px;
     border-radius: 5px;
 }
-
-
 
 .signup {
     padding-bottom: 35px;
@@ -293,9 +279,6 @@ textarea {
     height: 500px;
 }
 
-
-
-
 .sub-disc {
     background-image: url("https://images.pexels.com/photos/2265488/pexels-photo-2265488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
@@ -305,8 +288,6 @@ textarea {
     height: 25rem;
     justify-content: center;
 }
-
-
 
 .policy-disc {
     background-image: url("https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
@@ -319,7 +300,7 @@ textarea {
 }
 
 .policy {
-    height: 1500px;
+    height: 1200px;
 }
 
 

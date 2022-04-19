@@ -10,6 +10,7 @@
     <title>Electric Dreams</title>
 </head>
 <body class="light-theme">
+<!--Navigation Bar-->
     <nav>
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
@@ -18,7 +19,7 @@
           <li><a href="policy.html">Policy</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li>
-            <label class="switch">
+            <label class="switch"> <!--Dark theme switch-->
               <div>
                 <input type="checkbox" onclick="themeSwitch()" />
                 <span class="slider round"></span>
@@ -27,32 +28,37 @@
           </li>
         </ul>
     </nav>
+<!--Intro section-->
     <section class="intro">
         <h1>Electric Dreams</h1>
         <h2>This is electric dreams, <br> a tech blog where you can upload your reveiws of <br> the latest and greatest tech gadgets</h2>
     </section>
+<!--About section-->
     <section class="about">
         <h1>A little about us...</h1>
         <p>Here in Electric dreams you can showcase your opinions on the newest tech or upload your tech tips. <br>
            All the way from the newest laptop, to the newest software programmes. <br>
            Show us what you're reviewing, give a demo if you can and tell us what you think, or show us some tech life hacks.</p>
     </section>
+<!--Section that links to the submit page-->
     <section class="upload">
         <h1>Contribute to Electric Dreams!</h1>
         <p>Upload your own content to Electric Dreams!</p>
         <a href="submit.html"><button class="btn"><i class="fa-solid fa-upload"></i>Upload</button></a>
     </section>
+<!--Section to sign up to the newsletter-->
     <section class="signup">
         <h1>Keep up to date.</h1>
         <p>Sign up to our newsletter to hear about improvements and additions to Electric Dreams.</p>
-        <form>
+        <form class="newsletterForm">
             <label for="name" class="label">Full Name</label>
-            <input type="text" id="name" name="name" class="input" placeholder="Full Name" required> <br>
+            <input type="text" id="name" name="name" class="input" placeholder="Full Name"> <br>
             <label for="email" class="label">Email Address</label>
-            <input type="email" id="email" name="email" class="inout" placeholder="Email Address" required> <br>
+            <input type="email" id="email" name="email" class="input" placeholder="Email Address"> <br>
             <button type="submit" class="btn" onclick="submitNewsletter()">Submit</button>
         </form>
     </section> <br>
+<!--Footer for any kind of additional information-->
     <footer>
         Contact  |  Policies  |  GDPR  |  Copyright Electric Dreams 2022 
     </footer>
