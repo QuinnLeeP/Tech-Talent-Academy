@@ -1,0 +1,37 @@
+
+public class Characters {
+
+	private String name;
+	private int hearts;
+	private String speciality;
+	private String weakness;
+	
+	public Characters(String name, int hearts, String speciality, String weakness) {
+		this.name = name;
+		this.hearts = hearts;
+		this.speciality = speciality;
+		this.weakness = weakness;
+	}
+	
+	public Characters(String name, int hearts, String weakness) {
+		this.name = name;
+		this.hearts = hearts;
+		this.weakness = weakness;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public int getHearts() {
+		return this.hearts;
+	}
+	
+	public String getSpeciality() {
+		return this.speciality;
+	}
+	
+	public String getWeakness() {
+		return this.weakness;
+	}
+}
